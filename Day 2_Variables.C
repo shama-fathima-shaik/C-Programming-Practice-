@@ -2,7 +2,8 @@
 int main()
 {
 int age=21;
-float height=5.1;
+float height;
+height=5.1;
 char name[ ]="Shama Fathima Shaik";
 printf("My Age is %d\n",age);
 printf("My Height is %.1f\n",height);
