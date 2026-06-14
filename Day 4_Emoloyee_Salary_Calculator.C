@@ -4,8 +4,8 @@ int main()
 char Empname[ ]="Shama Fathima Shaik";
 int Empid= 1123;
 int Empsalary=150000;
-float hra=Empsalary0.20;
-float bonus=Empsalary0.10;
+float hra=Empsalary*0.20;
+float bonus=Empsalary*0.10;
 float totalsalary=Empsalary+hra+bonus;
 printf("Employee Name:%s\n" ,Empname);
 printf("Employee ID:%d\n" ,Empid);
